@@ -1,4 +1,4 @@
-body{
+  body {
             font-family: 'Arial', sans-serif;
             background: linear-gradient(to right, #72261d; #3c0a11db);
             display: flex;
@@ -62,4 +62,4 @@ body{
         }
         button:hover {
             background:#ff15bd;
-          }
+        }
