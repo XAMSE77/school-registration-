@@ -52,6 +52,25 @@
     <button type="submit">Register</button>
  
 </div>
+        
+<!-- Modal Popup -->
+<div id="successModal" class="modal">
+    <div class="modal-content">
+        <p> mahadsanid Waad is diiwaan galisay. Si degdeg ah ayaan kula soo xiriiri doonaa.</p>
+        <button onclick="closeModal()">OK</button>
+    </div>
+</div>
+<script>
+    document.getElementById("studentForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Stop form from reloading the page
+
+        // Show the modal
+        document.getElementById("successModal").style.display = "flex";
+    });
+
+    function closeModal() {
+        document.getElementById("successModal").style.display = "none";
+    }
 
 </body>
   </html>
